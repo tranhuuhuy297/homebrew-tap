@@ -5,21 +5,21 @@ class Loadman < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.2.0/loadman-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "265320ebf1dbda86d4b85759efb64b67852ea21c99527a2445ec6f0d0eeb51e5"
+      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.3.0/loadman-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "564b016aca2b7de974b163dcb01dd727a63964633e63b82cf6ec48e88c0ade3d"
     else
-      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.2.0/loadman-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e629bdefc3e7668df222279bd46a2f13729ae041e8651ccb3afb9d9f6c388dcf"
+      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.3.0/loadman-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "7e726ac291cbc9c1fabe6dd20395bd3c8d7b6b7e94525c31021e51d765487b3a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.2.0/loadman-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6fd99a0869c2748fe3793d4bf08de80203420511d950bf877a126f4ae7d3e93e"
+      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.3.0/loadman-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d657bbd72211c6d0bf44ae7b73b5fe3a64d2dc2e1ccd8f38c9c40fd51d0f9ab2"
     else
-      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.2.0/loadman-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "91d2f02feb04da8c631760a9b108d475c29e2dc4fa445c995d8b7f702df3e544"
+      url "https://github.com/tranhuuhuy297/loadman/releases/download/v0.3.0/loadman-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "061d23ac49cc45047dbd9db6bf64c128e2fff8f269c02c2a762c5a95600afc95"
     end
   end
 
