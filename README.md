@@ -8,5 +8,5 @@ brew install tranhuuhuy297/tap/loadman
 collections. The formula installs the prebuilt release binaries for macOS
 (Apple Silicon, Intel) and Linux (x86_64, arm64).
 
-To update it for a new release, change `version` and the four `sha256`
+To update it for a new release, change the version in the four URLs and the `sha256`
 values (from `shasum -a 256` of the release archives).
